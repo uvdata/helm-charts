@@ -2042,6 +2042,23 @@ entries:
     version: 0.1.0
   pgbouncer:
   - appVersion: 1.8.1
+    created: 2020-03-23T17:02:56.900389+10:00
+    description: PgBouncer - lightweight connection pooler for PostgreSQL
+    digest: b8a2334d869ac60bcaaf27803795f94eda0f8bce8dd1a2854cb524631d2ae4d8
+    home: https://pgbouncer.github.io/
+    icon: https://www.postgresql.org/media/img/about/press/elephant.png
+    keywords:
+    - postgresql
+    - pgbouncer
+    maintainers:
+    - email: matt@cos.io
+      name: Matt Frazier
+      url: https://github.com/mfraezz
+    name: pgbouncer
+    urls:
+    - pgbouncer-0.1.2.tgz
+    version: 0.1.2
+  - appVersion: 1.8.1
     created: 2020-02-19T22:00:46.459018255Z
     description: PgBouncer - lightweight connection pooler for PostgreSQL
     digest: a1103cd51936faf364237be12b20cecf368fb8547759d39c91df0eb05762eb12
@@ -2613,4 +2630,4 @@ entries:
     urls:
     - webhook-v0.8.1.tgz
     version: v0.8.1
-generated: 2020-02-19T22:00:46.264621296Z
+generated: 2020-03-23T17:02:56.900389+10:00
