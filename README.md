@@ -3,6 +3,17 @@ Kubernetes Helm Charts for the Open Science Framework
 
 [![Build Status](https://travis-ci.org/CenterForOpenScience/helm-charts.svg?branch=master)](https://travis-ci.org/CenterForOpenScience/helm-charts)
 
+# Updating the repo
+- Update the version number(s) of your chart
+```bash
+helm package your-chart/
+git checkout gh-pages
+helm repo index --url https://uvdata.github.io/helm-charts/ .
+git add -a
+git commit -m 'Describe what versions were udpated'
+git push
+```
+
 # Installation
 
 ## Prerequisites
